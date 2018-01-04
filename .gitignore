@@ -58,3 +58,4 @@ typings/
 .env
 
 package.json.bak
+.gitignore.bak
