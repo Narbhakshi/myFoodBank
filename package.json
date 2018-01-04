@@ -3,6 +3,10 @@
   "version": "0.0.0",
   "description": "",
   "main": "webpack.config.js",
+  "repository": {
+	"type": "git",
+	"url": "git://github.com/Narbhakshi/myFoodBank.git"
+   },
   "dependencies": {
     "babel-core": "^6.17.0",
     "babel-loader": "^6.2.0",
