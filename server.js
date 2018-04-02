@@ -21,5 +21,5 @@ var server = new WebpackDevServer(compiler, {
 
 
 });
-server.listen(8008, "localhost", function() {});
+server.listen(process.env.PORT || 8008, "localhost", function() {});
 // server.close();
