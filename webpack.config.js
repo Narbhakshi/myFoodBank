@@ -26,6 +26,7 @@ module.exports = {
   },
   devServer: {
     inline:true,
+	disableHostCheck: true,
 	compress:true
   },
   plugins: debug ? [] : [
