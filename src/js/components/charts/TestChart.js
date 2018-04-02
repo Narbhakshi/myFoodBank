@@ -3,7 +3,7 @@ import React from "react";
 let isSubscribed = false;
 let swRegistration = null;
 let pushButton =  document.getElementById('registerMeButton');
-const applicationServerPublicKey = 'BA9CSzGu_nbJ7o82wEOJTsKZcegYSw2TI6RxC9g-Khv-GjasOwjHnj35UtkB7K0LWgXoo1ussmOyHaqpRACtDPY';
+const applicationServerPublicKey = 'BC_0M0aV6pfDjDuYK2Xl8zi7cP5N_NMFmuM_aDgufrdbJxJl4ZulTJg0pXf-JbkGWOVOjIsPQ_Et2r-yJqaSCvQ';
 
 export default class TestChart extends React.Component {
 
@@ -138,7 +138,7 @@ updateBtnText() {
     return (
       <div class="testChart">
         <button type="button" id="registerMeButton" class="btn" onClick={this.registerSW.bind(this)}>Click Me</button>
-        <section id="js-subscription-details" class="js-subscription-details"></section>
+        <section id="js-subscription-details" class="subscription-details js-subscription-details is-invisible"></section>
         <pre><code id="js-subscription-json" class="js-subscription-json"></code></pre>
 
       </div>
