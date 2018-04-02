@@ -1,12 +1,9 @@
 {
-  "name": "myFoodBank",
-  "version": "0.0.0",
-  "description": "",
+  "name": "food-bank",
+  "version": "0.0.1",
+  "description": "Food bank app Description",
   "main": "webpack.config.js",
-  "repository": {
-	"type": "git",
-	"url": "git://github.com/Narbhakshi/myFoodBank.git"
-   },
+  "repository": "https://github.com/Narbhakshi/myFoodBank.git",
   "dependencies": {
     "babel-core": "^6.17.0",
     "babel-loader": "^6.2.0",
@@ -23,14 +20,15 @@
     "react-router": "^1.0.3",
     "webpack": "^1.12.9",
     "webpack-dev-server": "^1.14.1",
-    "es6-promise": "^4.1.1",
     "promise": "~8.0.1"
   },
   "devDependencies": {},
   "scripts": {
+    "lint": "eslint src",
+    "start": "node server.js",
     "dev": "./node_modules/.bin/webpack-dev-server --content-base src --inline --hot",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Shahrukh MdAdil",
   "license": "ISC"
 }
