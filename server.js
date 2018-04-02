@@ -12,6 +12,7 @@ var server = new WebpackDevServer(compiler, {
 
   clientLogLevel: "info",
 
+  disableHostCheck: true,
   filename: "client.min.js",
 
   // It's a required option.
