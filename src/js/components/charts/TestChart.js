@@ -3,8 +3,7 @@ import React from "react";
 let isSubscribed = false;
 let swRegistration = null;
 let pushButton =  document.getElementById('registerMeButton');
-const applicationServerPublicKey = 'BPX35Ep7HKIFg3nEgZYovYiZuG8iJx1q2DCZ5FVbLzYN5xqtnm' +
-    'M_I1vexxLxUDPZsMao7EcoEkdZwegvBT_nep4';
+const applicationServerPublicKey = 'BA9CSzGu_nbJ7o82wEOJTsKZcegYSw2TI6RxC9g-Khv-GjasOwjHnj35UtkB7K0LWgXoo1ussmOyHaqpRACtDPY';
 
 export default class TestChart extends React.Component {
 
